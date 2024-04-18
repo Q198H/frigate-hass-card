@@ -2,7 +2,7 @@
   "common": {
     "frigate_card": "护卫舰卡",
     "frigate_card_description": "与 Frigate 一起使用的 Lovelace 卡",
-    "live": "居住",
+    "live": "直播",
     "no_media": "没有可显示的媒体",
     "recordings": "录音",
     "version": "版本"
