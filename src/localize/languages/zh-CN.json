@@ -1,107 +1,107 @@
 {
   "common": {
-    "frigate_card": "Frigate卡片",
-    "frigate_card_description": "用于Frigate的Lovelace卡片",
-    "live": "实时",
-    "no_media": "无媒体可显示",
-    "recordings": "录像",
+    "frigate_card": "护卫舰卡",
+    "frigate_card_description": "与 Frigate 一起使用的 Lovelace 卡",
+    "live": "居住",
+    "no_media": "没有可显示的媒体",
+    "recordings": "录音",
     "version": "版本"
   },
   "config": {
     "cameras": {
-      "camera_entity": "摄像头实体",
+      "camera_entity": "相机实体",
       "dependencies": {
-        "all_cameras": "显示所有与此摄像头相关的摄像头的事件",
-        "cameras": "显示特定摄像头的事件",
-        "editor_label": "依赖项选项"
+        "all_cameras": "显示此相机的所有相机的事件",
+        "cameras": "使用此相机显示特定相机的事件",
+        "editor_label": "依赖性选项"
       },
       "engines": {
-        "editor_label": "摄像头引擎选项"
+        "editor_label": "相机引擎选项"
       },
       "frigate": {
-        "camera_name": "Frigate摄像头名称（从实体自动检测）",
-        "client_id": "Frigate客户端ID（适用于>1个Frigate服务器）",
-        "editor_label": "Frigate选项",
-        "labels": "Frigate标签/对象过滤器",
-        "url": "Frigate服务器URL",
-        "zones": "Frigate区域"
+        "camera_name": "护卫舰相机名称（从实体自动检测）",
+        "client_id": "护卫舰客户端 ID（适用于 >1 护卫舰服务器）",
+        "editor_label": "护卫舰选项",
+        "labels": "护卫舰标签/物体过滤器",
+        "url": "护卫舰服务器 URL",
+        "zones": "护卫舰区"
       },
       "go2rtc": {
-        "editor_label": "go2rtc选项",
+        "editor_label": "go2rtc 选项",
         "modes": {
-          "editor_label": "go2rtc模式",
-          "mjpeg": "动态JPEG（MJPEG）",
+          "editor_label": "go2rtc 模式",
+          "mjpeg": "运动 JPEG (MJPEG)",
           "mp4": "MPEG-4（MP4）",
-          "mse": "媒体源扩展（MSE）",
-          "webrtc": "网络实时通信（WebRTC）"
+          "mse": "媒体源扩展 (MSE)",
+          "webrtc": "网络实时通信 (WebRTC)"
         },
-        "stream": "go2rtc流名称"
+        "stream": "go2rtc 流名称"
       },
-      "hide": "从UI中隐藏摄像头",
-      "icon": "此摄像头的图标（从实体自动检测）",
-      "id": "此卡片中此摄像头的唯一ID",
+      "hide": "从用户界面隐藏摄像头",
+      "icon": "该相机的图标（从实体自动检测）",
+      "id": "此卡中此相机的唯一 ID",
       "image": {
         "editor_label": "图像选项",
         "refresh_seconds": "刷新实时图像的秒数（0=从不）",
-        "url": "用于替代摄像头实体快照的图像URL"
+        "url": "使用图像 URL 代替相机实体快照"
       },
-      "live_provider": "此摄像头的实时视图提供程序",
+      "live_provider": "此相机的实时取景提供程序",
       "live_provider_options": {
-        "editor_label": "实时提供者选项"
+        "editor_label": "直播提供商选项"
       },
       "live_providers": {
-        "auto": "自动",
+        "auto": "自动的",
         "go2rtc": "go2rtc",
-        "ha": "Home Assistant视频流（例如HLS，LL-HLS，通过HA的WebRTC）",
-        "image": "Home Assistant图像",
+        "ha": "家庭助理视频流（即通过 HA 的 HLS、LL-HLS、WebRTC）",
+        "image": "家庭助理图像",
         "jsmpeg": "JSMpeg",
-        "webrtc-card": "WebRTC卡（例如AlexxIT的WebRTC卡）"
+        "webrtc-card": "WebRTC 卡（即 AlexxIT 的 WebRTC 卡）"
       },
       "motioneye": {
-        "editor_label": "MotionEye选项",
+        "editor_label": "MotEye 选项",
         "images": {
           "directory_pattern": "图像目录模式",
           "file_pattern": "图像文件模式"
         },
         "movies": {
-          "directory_pattern": "影片目录模式",
-          "file_pattern": "影片文件模式"
+          "directory_pattern": "电影目录模式",
+          "file_pattern": "电影文件模式"
         },
-        "url": "MotionEye UI URL"
+        "url": "MotEye 用户界面网址"
       },
-      "title": "此摄像头的标题（从实体自动检测）",
+      "title": "该相机的标题（从实体自动检测）",
       "triggers": {
-        "editor_label": "触发器选项",
-        "entities": "来自其他实体的触发器",
+        "editor_label": "触发选项",
+        "entities": "来自其他实体的触发",
         "motion": "通过自动检测运动传感器触发",
         "occupancy": "通过自动检测占用传感器触发"
       },
       "webrtc_card": {
-        "editor_label": "WebRTC卡选项",
-        "entity": "WebRTC卡摄像头实体（不是Frigate摄像头）",
-        "url": "WebRTC卡摄像头URL"
+        "editor_label": "WebRTC 卡选项",
+        "entity": "WebRTC 卡式摄像头实体（不是护卫舰摄像头）",
+        "url": "WebRTC 卡相机 URL"
       }
     },
     "common": {
       "controls": {
         "builtin": "内置视频控件",
         "filter": {
-          "editor_label": "媒体过滤器",
-          "mode": "过滤器模式",
+          "editor_label": "介质过滤器",
+          "mode": "过滤模式",
           "modes": {
-            "left": "左侧抽屉中的媒体过滤器",
-            "none": "无媒体过滤器",
-            "right": "右侧抽屉中的媒体过滤器"
+            "left": "左侧抽屉中的介质过滤器",
+            "none": "无介质过滤器",
+            "right": "右侧抽屉中的介质过滤器"
           }
         },
         "next_previous": {
-          "editor_label": "上一个和下一个",
-          "size": "以像素为单位的上一个和下一个控件大小",
-          "style": "上一个和下一个控件样式",
+          "editor_label": "下一页和上一页",
+          "size": "下一个和上一个控件的大小（以像素为单位）",
+          "style": "下一个 & 上一个控制样式",
           "styles": {
-            "chevrons": "尖角",
+            "chevrons": "人字形",
             "icons": "图标",
-            "none": "无",
+            "none": "没有任何",
             "thumbnails": "缩略图"
           }
         },
@@ -114,46 +114,46 @@
           },
           "mode": "缩略图模式",
           "modes": {
-            "above": "在上方显示缩略图",
-            "below": "在下方显示缩略图",
+            "above": "上面的缩略图",
+            "below": "以下是缩略图",
             "left": "左侧抽屉中的缩略图",
-            "none": "无缩略图",
+            "none": "没有缩略图",
             "right": "右侧抽屉中的缩略图"
           },
-          "show_details": "在缩略图中显示详细信息",
-          "show_download_control": "在缩略图上显示下载控件",
-          "show_favorite_control": "在缩略图上显示喜爱控件",
-          "show_timeline_control": "在缩略图上显示时间轴控件",
-          "size": "以像素为单位的缩略图大小"
+          "show_details": "用缩略图显示详细信息",
+          "show_download_control": "在缩略图上显示下载控制",
+          "show_favorite_control": "在缩略图上显示收藏夹控件",
+          "show_timeline_control": "在缩略图上显示时间轴控制",
+          "size": "缩略图大小（以像素为单位）"
         },
         "timeline": {
-          "editor_label": "迷你时间轴",
+          "editor_label": "迷你时间线",
           "mode": "模式",
           "modes": {
-            "above": "上方",
-            "below": "下方",
-            "none": "无"
+            "above": "多于",
+            "below": "以下",
+            "none": "没有任何"
           }
         },
         "title": {
-          "duration_seconds": "显示弹出式标题的秒数（0=永远）",
-          "editor_label": "弹出式标题控件",
-          "mode": "弹出式标题显示模式",
+          "duration_seconds": "显示弹出标题的秒数（0=永远）",
+          "editor_label": "弹出标题控件",
+          "mode": "弹出标题显示模式",
           "modes": {
             "none": "无标题显示",
-            "popup-bottom-left": "弹出式标题位于左下角",
-            "popup-bottom-right": "弹出式标题位于右下角",
-            "popup-top-left": "弹出式标题位于左上角",
-            "popup-top-right": "弹出式标题位于右上角"
+            "popup-bottom-left": "左下角弹出窗口",
+            "popup-bottom-right": "右下角弹出窗口",
+            "popup-top-left": "左上角弹出窗口",
+            "popup-top-right": "右上角弹出窗口"
           }
         }
       },
       "layout": {
-        "fit": "布局适应",
+        "fit": "布局适合",
         "fits": {
-          "contain": "媒体被包含/添加黑边",
-          "cover": "媒体按比例扩展以覆盖卡片",
-          "fill": "媒体被拉伸以填充卡片"
+          "contain": "媒体被包含/包含信箱",
+          "cover": "介质按比例扩展以覆盖卡片",
+          "fill": "介质被拉伸以填满卡片"
         },
         "position": {
           "x": "水平放置百分比",
@@ -162,205 +162,205 @@
       },
       "media_action_conditions": {
         "all": "所有机会",
-        "hidden": "在浏览器/选项卡隐藏时",
-        "never": "从不",
-        "selected": "在选择时",
-        "unselected": "在取消选择时",
-        "visible": "在浏览器/选项卡可见时"
+        "hidden": "关于浏览器/标签隐藏",
+        "never": "绝不",
+        "selected": "论选择",
+        "unselected": "取消选择时",
+        "visible": "关于浏览器/标签的可见性"
       },
       "timeline": {
-        "clustering_threshold": "事件聚类的计数（0=不聚类）",
-        "media": "时间轴显示的媒体",
+        "clustering_threshold": "聚类的事件计数（0=无聚类）",
+        "media": "时间线显示的媒体",
         "medias": {
           "all": "所有媒体类型",
           "clips": "剪辑",
           "snapshots": "快照"
         },
-        "show_recordings": "显示录像",
+        "show_recordings": "显示录音",
         "style": "时间轴样式",
         "styles": {
-          "ribbon": "单个带上的事件",
-          "stack": "堆叠和聚类的事件"
+          "ribbon": "单个功能区上的事件",
+          "stack": "堆叠和聚集事件"
         },
-        "window_seconds": "时间轴视图的默认长度（以秒为单位）"
+        "window_seconds": "时间线视图的默认长度（以秒为单位）"
       }
     },
     "dimensions": {
-      "aspect_ratio": "默认宽高比（例如'16:9'）",
+      "aspect_ratio": "默认宽高比（例如“16:9”）",
       "aspect_ratio_mode": "宽高比模式",
       "aspect_ratio_modes": {
-        "dynamic": "宽高比根据媒体调整",
-        "static": "固定宽高比",
-        "unconstrained": "无约束的宽高比"
+        "dynamic": "宽高比根据媒体进行调整",
+        "static": "静态纵横比",
+        "unconstrained": "不受限制的长宽比"
       },
-      "max_height": "卡片的最大高度（以CSS单位表示，例如'100vh'）",
-      "min_height": "卡片的最小高度（以CSS单位表示，例如'100px'）"
+      "max_height": "以 CSS 单位表示的最大卡片高度（例如“100vh”）",
+      "min_height": "以 CSS 单位表示的卡片最小高度（例如“100px”）"
     },
     "image": {
       "layout": "图像布局",
       "mode": "图像查看模式",
       "modes": {
-        "camera": "Home Assistant相机实体的快照",
-        "screensaver": "嵌入式Frigate标志",
-        "url": "通过URL指定的任意图像"
+        "camera": "相机实体的 Home Assistant 相机快照",
+        "screensaver": "嵌入式护卫舰徽标",
+        "url": "通过 URL 指定的任意图像"
       },
-      "refresh_seconds": "刷新的秒数（0=从不）",
-      "url": "用于图像视图的静态图像URL",
-      "zoomable": "图像可缩放/平移"
+      "refresh_seconds": "刷新前的秒数（0=永不）",
+      "url": "用于图片视图的静态图片 URL",
+      "zoomable": "图像可以缩放/平移"
     },
     "live": {
-      "auto_mute": "自动静音实时摄像头",
-      "auto_pause": "自动暂停实时摄像头",
-      "auto_play": "自动播放实时摄像头",
-      "auto_unmute": "自动取消静音实时摄像头",
+      "auto_mute": "自动静音直播摄像头",
+      "auto_pause": "自动暂停直播摄像头",
+      "auto_play": "自动播放实时摄像机",
+      "auto_unmute": "自动取消直播摄像头静音",
       "controls": {
         "editor_label": "实时控制"
       },
-      "draggable": "实时摄像头视图可拖动/滑动",
+      "draggable": "实时摄像头视图可以拖动/滑动",
       "layout": "实时布局",
       "lazy_load": "实时摄像头延迟加载",
-      "lazy_unload": "实时摄像头延迟卸载",
+      "lazy_unload": "直播摄像机懒洋洋地卸载",
       "microphone": {
         "always_connected": "始终保持麦克风连接",
-        "disconnect_seconds": "若干秒后断开麦克风连接（0=永不）",
+        "disconnect_seconds": "断开麦克风的秒数（0=永不）",
         "editor_label": "麦克风",
-        "enabled": "启用麦克风"
+        "enabled": "麦克风已启用"
       },
-      "preload": "后台预加载实时视图",
-      "show_image_during_load": "加载实时流时显示静态图像",
-      "transition_effect": "实时摄像头过渡效果",
-      "zoomable": "实时摄像头可缩放/平移"
+      "preload": "在后台预加载实时视图",
+      "show_image_during_load": "直播加载时显示静止图像",
+      "transition_effect": "实时相机转场效果",
+      "zoomable": "实时摄像机可以缩放/平移"
     },
     "media_viewer": {
       "auto_mute": "自动静音媒体",
       "auto_pause": "自动暂停媒体",
       "auto_play": "自动播放媒体",
-      "auto_unmute": "自动取消静音媒体",
+      "auto_unmute": "自动取消媒体静音",
       "controls": {
         "editor_label": "媒体查看器控件"
       },
-      "draggable": "媒体查看器可拖动/滑动",
+      "draggable": "媒体查看器可以拖动/滑动",
       "layout": "媒体查看器布局",
-      "lazy_load": "媒体查看器中的媒体延迟加载",
-      "snapshot_click_plays_clip": "单击快照会播放相关的剪辑",
+      "lazy_load": "媒体查看器媒体在轮播中延迟加载",
+      "snapshot_click_plays_clip": "点击快照即可播放相关剪辑",
       "transition_effect": "媒体查看器过渡效果",
       "transition_effects": {
         "none": "无过渡",
-        "slide": "滑动过渡"
+        "slide": "幻灯片过渡"
       },
-      "zoomable": "媒体查看器可缩放/平移"
+      "zoomable": "媒体查看器可以缩放/平移"
     },
     "menu": {
       "alignment": "菜单对齐",
       "alignments": {
         "bottom": "底部对齐",
-        "left": "左侧对齐",
-        "right": "右侧对齐",
+        "left": "左对齐",
+        "right": "右对齐",
         "top": "顶部对齐"
       },
       "button_size": "菜单按钮大小（以像素为单位）",
       "buttons": {
         "alignment": "按钮对齐",
         "alignments": {
-          "matching": "与菜单对齐匹配",
-          "opposing": "与菜单对齐相反"
+          "matching": "匹配菜单对齐",
+          "opposing": "反对菜单对齐"
         },
         "camera_ui": "相机用户界面",
         "cameras": "相机",
         "clips": "剪辑",
         "download": "下载",
         "enabled": "按钮已启用",
-        "expand": "展开",
-        "frigate": "Frigate菜单/默认视图",
+        "expand": "扩张",
+        "frigate": "护卫舰菜单/默认视图",
         "fullscreen": "全屏",
         "icon": "图标",
         "image": "图像",
-        "live": "实时",
+        "live": "居住",
         "media_player": "发送到媒体播放器",
         "microphone": "麦克风",
-        "mute": "静音/取消静音",
-        "play": "播放/暂停",
-        "priority": "优先级",
-        "recordings": "录像",
-        "screenshot": "截图",
+        "mute": "静音 / 取消静音",
+        "play": "播放 / 暂停",
+        "priority": "优先事项",
+        "recordings": "录音",
+        "screenshot": "截屏",
         "snapshots": "快照",
         "substreams": "子流",
-        "timeline": "时间轴",
+        "timeline": "时间线",
         "type": "按钮类型",
         "types": {
-          "momentary": "瞬时",
+          "momentary": "瞬间",
           "toggle": "切换"
         }
       },
       "position": "菜单位置",
       "positions": {
-        "bottom": "底部定位",
-        "left": "左侧定位",
-        "right": "右侧定位",
-        "top": "顶部定位"
+        "bottom": "位于底部",
+        "left": "位于左侧",
+        "right": "位于右侧",
+        "top": "位于顶部"
       },
       "style": "菜单样式",
       "styles": {
         "hidden": "隐藏菜单",
         "hover": "悬停菜单",
-        "hover-card": "悬停菜单（卡片宽）",
+        "hover-card": "悬停菜单（卡片范围）",
         "none": "无菜单",
         "outside": "外部菜单",
-        "overlay": "覆盖菜单"
+        "overlay": "叠加菜单"
       }
     },
     "overrides": {
-      "info": "此卡配置已手动指定了配置覆盖，可能会覆盖可视编辑器中显示的值，请查看代码编辑器以查看/修改这些覆盖"
+      "info": "此卡配置已手动指定配置的覆盖，可能会覆盖可视化编辑器中显示的值，请查阅代码编辑器以查看/修改这些覆盖"
     },
     "performance": {
       "features": {
         "animated_progress_indicator": "动画进度指示器",
-        "editor_label": "特性选项",
+        "editor_label": "功能选项",
         "media_chunk_size": "媒体块大小"
       },
-      "profile": "性能概要",
+      "profile": "绩效概况",
       "profiles": {
-        "high": "高/全性能",
-        "low": "低性能"
+        "high": "高性能",
+        "low": "性能低下"
       },
       "style": {
         "border_radius": "曲线",
         "box_shadow": "阴影",
         "editor_label": "样式选项"
       },
-      "warning": "此卡处于低配置模式，因此默认值已更改以优化性能"
+      "warning": "此卡处于低配置模式，因此默认设置已更改以优化性能"
     },
     "view": {
-      "camera_select": "选择新选择的相机的视图",
-      "dark_mode": "暗模式",
+      "camera_select": "查看新选择的相机",
+      "dark_mode": "暗黑模式",
       "dark_modes": {
-        "auto": "自动",
-        "off": "关闭",
-        "on": "开启"
+        "auto": "汽车",
+        "off": "离开",
+        "on": "在"
       },
       "default": "默认视图",
       "scan": {
-        "enabled": "启用扫描模式",
+        "enabled": "已启用扫描模式",
         "scan_mode": "扫描模式",
-        "show_trigger_status": "触发时显示脉动边框",
-        "untrigger_reset": "非触发状态变化后将视图重置为默认值",
-        "untrigger_seconds": "非活动状态变化后X秒后触发重置"
+        "show_trigger_status": "触发时显示脉冲边框",
+        "untrigger_reset": "取消触发后将视图重置为默认值",
+        "untrigger_seconds": "非活动状态变为未触发后的秒数"
       },
-      "timeout_seconds": "用户操作后X秒后将视图重置为默认值（0=从不）",
-      "update_cycle_camera": "默认视图更新时循环浏览相机",
+      "timeout_seconds": "用户操作后 X 秒重置为默认视图（0=从不）",
+      "update_cycle_camera": "当默认视图更新时循环切换摄像机",
       "update_force": "强制卡片更新（忽略用户交互）",
-      "update_seconds": "每X秒刷新默认视图（0=从不）",
+      "update_seconds": "每 X 秒刷新一次默认视图（0=从不）",
       "views": {
         "clip": "最新剪辑",
-        "clips": "剪辑画廊",
-        "current": "当前视图",
+        "clips": "剪辑库",
+        "current": "目前来看",
         "image": "静态图像",
-        "live": "实时视图",
-        "recording": "最新录像",
-        "recordings": "录像画廊",
+        "live": "实时查看",
+        "recording": "最新录音",
+        "recordings": "录音画廊",
         "snapshot": "最新快照",
-        "snapshots": "快照画廊",
-        "timeline": "时间轴视图"
+        "snapshots": "快照库",
+        "timeline": "时间线视图"
       }
     }
   },
@@ -369,39 +369,39 @@
     "button": "按钮",
     "camera": "相机",
     "cameras": "相机",
-    "cameras_secondary": "在此卡上渲染哪些相机",
+    "cameras_secondary": "此卡上渲染哪些相机",
     "delete": "删除",
-    "dimensions": "尺寸",
+    "dimensions": "方面",
     "dimensions_secondary": "尺寸和形状选项",
     "image": "图像",
     "image_secondary": "静态图像视图选项",
-    "live": "实时",
+    "live": "居住",
     "live_secondary": "实时摄像头视图选项",
-    "media_gallery": "媒体库",
+    "media_gallery": "媒体图库",
     "media_gallery_secondary": "媒体库选项",
     "media_viewer": "媒体查看器",
-    "media_viewer_secondary": "静态媒体的查看器（剪辑、快照或录像）",
+    "media_viewer_secondary": "静态媒体（剪辑、快照或录音）查看器",
     "menu": "菜单",
     "menu_secondary": "菜单外观和感觉选项",
-    "move_down": "向下移动",
-    "move_up": "向上移动",
-    "overrides": "覆盖正在生效",
+    "move_down": "下移",
+    "move_up": "提升",
+    "overrides": "覆盖已激活",
     "overrides_secondary": "检测到动态配置覆盖",
-    "performance": "性能",
+    "performance": "表现",
     "performance_secondary": "卡片性能选项",
-    "timeline": "时间轴",
-    "timeline_secondary": "事件时间轴选项",
+    "timeline": "时间线",
+    "timeline_secondary": "事件时间线选项",
     "upgrade": "升级",
-    "upgrade_available": "可用自动卡配置升级",
-    "view": "视图",
-    "view_secondary": "卡片应显示什么及如何显示"
+    "upgrade_available": "可自动升级卡配置",
+    "view": "看法",
+    "view_secondary": "卡片应显示什么以及如何显示"
   },
   "elements": {
     "ptz": {
       "down": "向下",
-      "home": "主页",
-      "left": "向左",
-      "right": "向右",
+      "home": "家",
+      "left": "左边",
+      "right": "正确的",
       "up": "向上",
       "zoom_in": "放大",
       "zoom_out": "缩小"
@@ -409,50 +409,100 @@
   },
   "error": {
     "could_not_render_elements": "无法渲染图片元素",
-    "could_not_resolve": "无法解析 {{id}}",
-    "dependencies_not_supported": "{{name}}不支持依赖项选项",
-    "element_already_exists": "具有此ID的元素已存在",
-    "element_not_found": "未找到元素",
-    "elements_must_be_nested": "元素必须嵌套在其他元素中",
-    "invalid": "无效",
-    "invalid_icon": "无效的图标：{{icon}}",
-    "missing_required": "缺少必填字段：{{field}}",
-    "not_found": "未找到",
-    "unrecognized_type": "不被识别的类型：{{type}}"
+    "could_not_resolve": "无法解析媒体 URL",
+    "diagnostics": "卡诊断。请在分享前检查机密信息",
+    "download_no_media": "没有可下载的媒体",
+    "download_sign_failed": "无法签署媒体 URL 以供下载",
+    "duplicate_camera_id": "以下相机的 Frigate 相机 ID 重复，请使用“id”参数来唯一标识相机",
+    "empty_response": "收到 Home Assistant 的空响应",
+    "failed_response": "未能收到 Home Assistant 对请求的响应",
+    "failed_retain": "无法保留事件",
+    "failed_sign": "无法签署 Home Assistant URL",
+    "image_load_error": "无法加载图片",
+    "invalid_configuration": "配置无效",
+    "invalid_configuration_no_hint": "没有可用的位置提示（类型错误或缺失？）",
+    "invalid_elements_config": "图片元素配置无效",
+    "invalid_response": "收到了 Home Assistant 发出的无效请求响应",
+    "jsmpeg_no_player": "无法启动 JSMPEG 播放器",
+    "live_camera_no_endpoint": "无法获取此实时提供商的摄像头端点（配置不完整？）",
+    "live_camera_not_found": "未找到配置的 camera_entity",
+    "live_camera_unavailable": "相机不可用",
+    "no_camera_engine": "无法确定适合相机的引擎",
+    "no_camera_entity": "找不到相机实体",
+    "no_camera_entity_for_triggers": "为了自动检测触发器，需要相机实体",
+    "no_camera_id": "无法确定以下相机的相机 ID，可能需要手动设置“id”参数",
+    "no_camera_name": "无法确定相机（或其依赖项之一）的护卫舰相机名称，请指定“camera_entity”或“camera_name”",
+    "no_live_camera": "必须设置 camera_entity 参数，并且该参数对于该直播提供商有效",
+    "no_visible_cameras": "未找到可见摄像头，您必须配置至少一个非隐藏摄像头",
+    "reconnecting": "重新连接",
+    "timeline_no_cameras": "时间线上没有显示护卫舰摄像机",
+    "too_many_automations": "嵌套自动化调用过多，请检查循环配置",
+    "troubleshooting": "检查故障排除",
+    "unknown": "未知错误",
+    "upgrade_available": "可以自动升级卡片配置，请访问可视化卡片编辑器",
+    "webrtc_card_reported_error": "WebRTC 卡报告错误",
+    "webrtc_card_waiting": "等待 WebRTC 卡加载..."
   },
-  "types": {
-    "animation": "动画",
-    "button": "按钮",
-    "camera": "摄像头",
-    "card": "卡片",
-    "circle": "圆",
-    "clip": "剪辑",
-    "cover": "封面",
-    "divider": "分隔符",
-    "group": "分组",
-    "icon": "图标",
-    "image": "图像",
-    "live": "实时",
-    "menu": "菜单",
-    "rectangle": "矩形",
-    "recordings": "录像",
-    "snapshot": "快照",
-    "svg": "SVG",
-    "text": "文本",
-    "timeline": "时间轴"
+  "event": {
+    "camera": "相机",
+    "duration": "期间",
+    "in_progress": "进行中",
+    "score": "分数",
+    "seek": "寻找",
+    "start": "开始",
+    "tag": "标签",
+    "what": "什么",
+    "where": "在哪里"
   },
-  "util": {
-    "day_plural": "天",
-    "day_singular": "天",
-    "hour_plural": "小时",
-    "hour_singular": "小时",
-    "minute_plural": "分钟",
-    "minute_singular": "分钟",
-    "month_plural": "个月",
-    "month_singular": "个月",
-    "second_plural": "秒",
-    "second_singular": "秒",
-    "year_plural": "年",
-    "year_singular": "年"
+  "media_filter": {
+    "all": "全部",
+    "camera": "相机",
+    "favorite": "最喜欢的",
+    "media_type": "媒体类型",
+    "media_types": {
+      "clips": "剪辑",
+      "recordings": "录音",
+      "snapshots": "快照"
+    },
+    "not_favorite": "不是最爱",
+    "select_camera": "选择相机...",
+    "select_favorite": "选择最喜欢的...",
+    "select_media_type": "选择媒体类型...",
+    "select_tag": "选择标签...",
+    "select_what": "选择什么...",
+    "select_when": "选择何时...",
+    "select_where": "选择位置...",
+    "tag": "标签",
+    "what": "什么",
+    "when": "什么时候",
+    "whens": {
+      "past_month": "过去一个月",
+      "past_week": "上周",
+      "today": "今天",
+      "yesterday": "昨天"
+    },
+    "where": "在哪里"
+  },
+  "recording": {
+    "camera": "相机",
+    "duration": "期间",
+    "events": "活动",
+    "in_progress": "进行中",
+    "seek": "寻找",
+    "start": "开始"
+  },
+  "thumbnail": {
+    "download": "下载媒体",
+    "no_thumbnail": "没有可用的缩略图",
+    "retain_indefinitely": "媒体将被无限期保留",
+    "timeline": "在时间线中查看媒体"
+  },
+  "timeline": {
+    "pan_behavior": {
+      "pan": "平底锅",
+      "seek": "泛寻找所有媒体",
+      "seek-in-media": "仅在选定的媒体项目内进行平移搜索"
+    },
+    "select_date": "选择日期"
   }
 }
